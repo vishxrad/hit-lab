@@ -32,7 +32,7 @@ const NotFound = () => {
               <a href="/">返回首頁</a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="#contact">聯絡我們</a>
+              <a href="/#contact">聯絡我們</a>
             </Button>
           </div>
         </div>
