@@ -96,14 +96,14 @@ const newsItems = [
     date: "2025-08-06",
     href: "https://htpm.web2.ncku.edu.tw/p/406-1217-216452,r11.php?Lang=zh-tw",
     summary:
-      "分享聯盟於研��會中的最新成果，展示蛋白體微陣列在抗體藥物開發上的突破。",
+      "分享聯盟於研討會中的最新成果，展示蛋白體微陣列在抗體藥物開發上的突破。",
   },
   {
     title: "高通量蛋白質微陣列晶片技術與生醫產業服務聯盟工作坊",
     date: "2025-04-09",
     href: "https://htpm.web2.ncku.edu.tw/p/406-1217-215600,r11.php?Lang=zh-tw",
     summary:
-      "聚焦微陣列晶片製程、品管以及臨床研究案例，協助夥伴快速掌握實務。",
+      "聚焦微陣列晶片製程、品管以���臨床研究案例，協助夥伴快速掌握實務。",
   },
 ];
 
@@ -139,7 +139,7 @@ const supportHighlights = [
   },
   {
     label: "專案啟動",
-    detail: "設計���查會議同步臨床與產業需求",
+    detail: "設計審查會議同步臨床與產業需求",
   },
   {
     label: "資料回傳",
@@ -186,7 +186,7 @@ function HeroSection() {
             HIGH-THROUGHPUT PROTEOMICS
           </span>
           <h1 className="text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            卓越蛋白體微陣列平台，驅動精準健康創新。
+            ���越蛋白體微陣列平台，驅動精準健康創新。
           </h1>
           <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
             成功大學高通量蛋白質微陣列技術與生醫產業服務聯盟，整合平台研發、檢測服務與臨床應用，
@@ -446,10 +446,10 @@ function ServicesSection() {
                 從初次諮詢到專案啟動，聯盟提供透明節點與明確交付物。
               </p>
               <ol className="mt-6 space-y-4 text-sm text-muted-foreground">
-                {supportHighlights.map((item) => (
+                {supportHighlights.map((item, index) => (
                   <li key={item.label} className="flex items-start gap-3">
                     <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/15 text-sm font-semibold text-primary">
-                      {supportHighlights.indexOf(item) + 1}
+                      {index + 1}
                     </span>
                     <div>
                       <p className="font-medium text-foreground">{item.label}</p>
@@ -496,7 +496,7 @@ function ContactSection() {
             </h2>
             <p className="text-base text-muted-foreground">
               不論您是準備導入蛋白體微陣列技術、探索生物標誌或規劃臨床試驗，
-              我們的專業團隊將與您共同設計最合適的合作方案。
+              我們的專業團隊將與您���同設計最合適的合作方案。
             </p>
             <div className="space-y-4 text-sm text-muted-foreground">
               {contactChannels.map((channel) => (
