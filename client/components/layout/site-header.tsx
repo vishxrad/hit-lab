@@ -60,7 +60,11 @@ export function SiteHeader() {
             aria-label="Toggle navigation"
             onClick={toggleMenu}
           >
-            {isMenuOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
+            {isMenuOpen ? (
+              <X className="h-5 w-5" aria-hidden="true" />
+            ) : (
+              <Menu className="h-5 w-5" aria-hidden="true" />
+            )}
           </button>
         </div>
         <div

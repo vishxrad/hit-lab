@@ -53,24 +53,15 @@ const capabilityHighlights: Array<{
   },
   {
     title: "轉譯合作與加值服務",
-    description:
-      "協助產學與臨床夥伴規劃技術導入、試量產與商業模式。",
-    points: [
-      "跨領域顧問團隊",
-      "研討會與工作坊資源",
-      "試量產與驗證支持",
-    ],
+    description: "協助產學與臨床夥伴規劃技術導入、試量產與商業模式。",
+    points: ["跨領域顧問團隊", "研討會與工作坊資源", "試量產與驗證支持"],
     icon: ClipboardCheck,
   },
   {
     title: "生醫檢體應用",
     description:
       "提供血清、血漿、組織等檢體的前處理與微量分析，確保結果可重現。",
-    points: [
-      "合規檢體流程與追蹤",
-      "臨床實驗室合作網絡",
-      "結果解讀與報告建議",
-    ],
+    points: ["合規檢體流程與追蹤", "臨床實驗室合作網絡", "結果解讀與報告建議"],
     icon: FlaskConical,
   },
 ];
@@ -121,8 +112,7 @@ const membershipHighlights = [
   },
   {
     title: "檢體收件諮詢",
-    description:
-      "提供全流程檢體導入支援，含採集規格、冷鏈運送與資料登錄。",
+    description: "提供全流程檢體導入支援，含採集規格、冷鏈運送與資料登錄。",
     benefits: [
       "專人線上諮詢與預約",
       "標準化檢體登錄文件",
@@ -236,7 +226,9 @@ function HeroSection() {
           />
           <figcaption className="mt-4 flex items-center justify-between rounded-2xl bg-background/90 px-4 py-3 text-sm text-muted-foreground shadow">
             <div>
-              <p className="font-medium text-foreground">高通量生物感測實驗室</p>
+              <p className="font-medium text-foreground">
+                高通量生物感測實驗室
+              </p>
               <p>專業團隊提供研發到臨床的全流程支援</p>
             </div>
             <TrendingUp className="h-5 w-5 text-primary" aria-hidden="true" />
@@ -275,14 +267,21 @@ function CapabilitiesSection() {
                       <item.icon className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground">{item.title}</h3>
-                      <p className="mt-2 text-sm text-muted-foreground">{item.description}</p>
+                      <h3 className="text-lg font-semibold text-foreground">
+                        {item.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        {item.description}
+                      </p>
                     </div>
                   </div>
                   <ul className="mt-4 space-y-2 text-sm text-muted-foreground/90">
                     {item.points.map((point) => (
                       <li key={point} className="flex items-start gap-2">
-                        <span className="mt-1 h-1.5 w-1.5 rounded-full bg-primary/60" aria-hidden="true" />
+                        <span
+                          className="mt-1 h-1.5 w-1.5 rounded-full bg-primary/60"
+                          aria-hidden="true"
+                        />
                         <span>{point}</span>
                       </li>
                     ))}
@@ -292,7 +291,8 @@ function CapabilitiesSection() {
             </div>
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 text-sm text-muted-foreground">
               <p>
-                透過全程品質追蹤、檢體鏈結管理與雙語專案窗口，HTPM Alliance 確保成果可被臨床及產業快速採納，降低導入成本並縮短驗證時程。
+                透過全程品質追蹤、檢體鏈結管理與雙語專案窗口，HTPM Alliance
+                確保成果可被臨床及產業快速採納，降低導入成本並縮短驗證時程。
               </p>
             </div>
           </div>
@@ -309,20 +309,32 @@ function CapabilitiesSection() {
                 />
               </div>
               <div className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <p className="font-medium text-foreground">蛋白體微陣列晶片介紹</p>
+                <p className="font-medium text-foreground">
+                  蛋白體微陣列晶片介紹
+                </p>
                 <p>
                   影片帶您了解晶片架構、製程優勢與在生醫產業的應用案例，適合首次接觸或準備導入的團隊。
                 </p>
               </div>
-              <Button variant="ghost" className="mt-4 gap-2 text-sm text-primary" asChild>
-                <a href="https://htpm.web2.ncku.edu.tw/p/450-1217-26722.php?Lang=zh-tw" target="_blank" rel="noreferrer">
+              <Button
+                variant="ghost"
+                className="mt-4 gap-2 text-sm text-primary"
+                asChild
+              >
+                <a
+                  href="https://htpm.web2.ncku.edu.tw/p/450-1217-26722.php?Lang=zh-tw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   深入了解核心技術
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </a>
               </Button>
             </div>
             <div className="rounded-2xl border border-accent/30 bg-accent/10 p-6 text-sm text-muted-foreground">
-              <h3 className="text-base font-semibold text-foreground">策略夥伴資源</h3>
+              <h3 className="text-base font-semibold text-foreground">
+                策略夥伴資源
+              </h3>
               <p className="mt-2">
                 與國內外臨床中心、技術廠商與監管單位緊密合作，提供從探索到驗證、上市的全方位支援。
               </p>
@@ -354,7 +366,11 @@ function NewsSection() {
           </p>
         </div>
         <Button variant="outline" className="w-full sm:w-auto" asChild>
-          <a href="https://htpm.web2.ncku.edu.tw/p/412-1217-26725.php?Lang=zh-tw" target="_blank" rel="noreferrer">
+          <a
+            href="https://htpm.web2.ncku.edu.tw/p/412-1217-26725.php?Lang=zh-tw"
+            target="_blank"
+            rel="noreferrer"
+          >
             前往全部消息
           </a>
         </Button>
@@ -369,11 +385,20 @@ function NewsSection() {
               <time className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground">
                 {item.date}
               </time>
-              <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">{item.summary}</p>
+              <h3 className="text-xl font-semibold text-foreground">
+                {item.title}
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                {item.summary}
+              </p>
             </div>
             <Button variant="link" className="mt-6 self-start px-0" asChild>
-              <a href={item.href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2">
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2"
+              >
                 閱讀詳情
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </a>
@@ -413,14 +438,21 @@ function ServicesSection() {
                       <item.icon className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground">{item.title}</h3>
-                      <p className="mt-2 text-sm text-muted-foreground">{item.description}</p>
+                      <h3 className="text-lg font-semibold text-foreground">
+                        {item.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        {item.description}
+                      </p>
                     </div>
                   </div>
                   <ul className="mt-4 space-y-2 text-sm text-muted-foreground/90">
                     {item.benefits.map((benefit) => (
                       <li key={benefit} className="flex items-start gap-2">
-                        <span className="mt-1 block h-1.5 w-1.5 rounded-full bg-primary/60" aria-hidden="true" />
+                        <span
+                          className="mt-1 block h-1.5 w-1.5 rounded-full bg-primary/60"
+                          aria-hidden="true"
+                        />
                         <span>{benefit}</span>
                       </li>
                     ))}
@@ -430,10 +462,15 @@ function ServicesSection() {
             </div>
             <div className="flex flex-col gap-3 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
               <p>
-                完成線上諮詢後，團隊將於 2 個工作日內回覆，協助規劃入會與服務流程。
+                完成線上諮詢後，團隊將於 2
+                個工作日內回覆，協助規劃入會與服務流程。
               </p>
               <Button size="sm" variant="outline" asChild>
-                <a href="https://htpm.web2.ncku.edu.tw/p/450-1217-26908,c1.php?Lang=zh-tw" target="_blank" rel="noreferrer">
+                <a
+                  href="https://htpm.web2.ncku.edu.tw/p/450-1217-26908,c1.php?Lang=zh-tw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   下載服務資料
                 </a>
               </Button>
@@ -441,7 +478,9 @@ function ServicesSection() {
           </div>
           <div className="space-y-6">
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-              <h3 className="text-xl font-semibold text-foreground">導入步驟</h3>
+              <h3 className="text-xl font-semibold text-foreground">
+                導入步驟
+              </h3>
               <p className="mt-2 text-sm text-muted-foreground">
                 從初次諮詢到專案啟動，聯盟提供透明節點與明確交付物。
               </p>
@@ -452,7 +491,9 @@ function ServicesSection() {
                       {index + 1}
                     </span>
                     <div>
-                      <p className="font-medium text-foreground">{item.label}</p>
+                      <p className="font-medium text-foreground">
+                        {item.label}
+                      </p>
                       <p>{item.detail}</p>
                     </div>
                   </li>
@@ -460,7 +501,9 @@ function ServicesSection() {
               </ol>
             </div>
             <div className="rounded-2xl border border-border/60 bg-background/90 p-6 text-sm text-muted-foreground">
-              <h3 className="text-base font-semibold text-foreground">常見服務類別</h3>
+              <h3 className="text-base font-semibold text-foreground">
+                常見服務類別
+              </h3>
               <ul className="mt-3 grid gap-3 sm:grid-cols-2">
                 {[
                   "臨床前與臨床檢測",
@@ -469,7 +512,10 @@ function ServicesSection() {
                   "食品安全與檢驗",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-primary/60" aria-hidden="true" />
+                    <span
+                      className="h-1.5 w-1.5 rounded-full bg-primary/60"
+                      aria-hidden="true"
+                    />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -516,7 +562,9 @@ function ContactSection() {
                         {channel.value}
                       </a>
                     ) : (
-                      <p className="text-base font-medium text-foreground">{channel.value}</p>
+                      <p className="text-base font-medium text-foreground">
+                        {channel.value}
+                      </p>
                     )}
                   </div>
                 </div>
@@ -530,7 +578,11 @@ function ContactSection() {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://www.facebook.com/htpm.ncku" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.facebook.com/htpm.ncku"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   追蹤最新消息
                 </a>
               </Button>
@@ -538,7 +590,9 @@ function ContactSection() {
           </div>
           <div className="space-y-6">
             <div className="rounded-2xl border border-border/60 bg-background/90 p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-foreground">快速搜尋</h3>
+              <h3 className="text-lg font-semibold text-foreground">
+                快速搜尋
+              </h3>
               <p className="mt-2 text-sm text-muted-foreground">
                 直接查詢聯盟資料庫、最新研究與下載資源。搜尋結果將在新視窗開啟。
               </p>
@@ -552,7 +606,10 @@ function ContactSection() {
                 <label className="flex flex-col gap-2 text-sm font-medium text-muted-foreground">
                   關鍵字
                   <span className="relative flex items-center">
-                    <Search className="pointer-events-none absolute left-3 h-4 w-4 text-muted-foreground/70" aria-hidden="true" />
+                    <Search
+                      className="pointer-events-none absolute left-3 h-4 w-4 text-muted-foreground/70"
+                      aria-hidden="true"
+                    />
                     <input
                       name="SchKey"
                       type="search"
@@ -569,7 +626,9 @@ function ContactSection() {
               </form>
             </div>
             <div className="rounded-2xl border border-primary/15 bg-primary/5 p-6 text-sm text-muted-foreground">
-              <h3 className="text-base font-semibold text-foreground">合作亮點</h3>
+              <h3 className="text-base font-semibold text-foreground">
+                合作亮點
+              </h3>
               <p className="mt-2">
                 透過跨領域的共同設計，確保技術成果能延伸至臨床與產業場域，創造長期價值。
               </p>

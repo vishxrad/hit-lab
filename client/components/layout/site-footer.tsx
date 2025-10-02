@@ -1,4 +1,12 @@
-import { Activity, ExternalLink, Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import {
+  Activity,
+  ExternalLink,
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
 
 const quickLinks = [
   { label: "Overview", href: "#overview" },
@@ -87,20 +95,30 @@ export function SiteFooter() {
             </h3>
             <ul className="mt-5 space-y-4 text-sm text-muted-foreground">
               <li className="flex items-start gap-3">
-                <MapPin className="mt-1 h-4 w-4 text-primary" aria-hidden="true" />
+                <MapPin
+                  className="mt-1 h-4 w-4 text-primary"
+                  aria-hidden="true"
+                />
                 <span>
-                  701 台南市東區大學路 1 號<br />生醫卓群大樓 9 樓
+                  701 台南市東區大學路 1 號<br />
+                  生醫卓群大樓 9 樓
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary" aria-hidden="true" />
-                <a href="tel:+88662353535,1535" className="transition-colors hover:text-foreground">
+                <a
+                  href="tel:+88662353535,1535"
+                  className="transition-colors hover:text-foreground"
+                >
                   +886-6-2353535 ext.1535
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" aria-hidden="true" />
-                <a href="mailto:11402047@gs.ncku.edu.tw" className="transition-colors hover:text-foreground">
+                <a
+                  href="mailto:11402047@gs.ncku.edu.tw"
+                  className="transition-colors hover:text-foreground"
+                >
                   11402047@gs.ncku.edu.tw
                 </a>
               </li>
@@ -110,10 +128,12 @@ export function SiteFooter() {
         <div className="border-t border-border/60 py-6">
           <div className="flex flex-col gap-3 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
             <p>
-              © {new Date().getFullYear()} National Cheng Kung University. All rights reserved.
+              © {new Date().getFullYear()} National Cheng Kung University. All
+              rights reserved.
             </p>
             <p>
-              與產業攜手打造蛋白體微陣列生醫服務。<span className="ml-2 text-primary">NCKU HTPM Alliance</span>
+              與產業攜手打造蛋白體微陣列生醫服務。
+              <span className="ml-2 text-primary">NCKU HTPM Alliance</span>
             </p>
           </div>
         </div>
