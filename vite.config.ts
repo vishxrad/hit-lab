@@ -8,15 +8,18 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    fs: {
-      allow: ["./client", "./shared"],
-      deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
-    },
   },
   build: {
     outDir: "dist/spa",
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+        404: path.resolve(__dirname, "404.html"),
+      },
+    },
   },
   plugins: [react(), expressPlugin()],
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),

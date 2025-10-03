@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "HTPM Alliance",
+    "fullName": "高通量生醫服務聯盟",
+    "tagline": "HIGH-THROUGHPUT PROTEOMICS"
+  },
+  "nav": {
+    "home": "首頁",
+    "about": "關於",
+    "research": "研究技術",
+    "members": "會員服務",
+    "team": "團隊",
+    "joinAlliance": "加入聯盟"
+  },
+  "hero": {
+    "tagline": "HIGH-THROUGHPUT PROTEOMICS",
+    "title": "卓越蛋白體微陣列平台，驅動精準健康創新。",
+    "description": "成功大學高通量蛋白質微陣列技術與生醫產業服務聯盟，整合平台研發、檢測服務與臨床應用，為產學合作夥伴提供高效率、高靈敏的蛋白體分析與轉譯支援。",
+    "exploreTech": "探索核心技術",
+    "viewNews": "最新動態",
+    "labTitle": "高通量生物感測實驗室",
+    "labDescription": "專業團隊提供研發到臨床的全流程支援",
+    "highlights": [
+      "全基因組蛋白質微陣列，可分析數千種蛋白質（大腸桿菌、酵母、人類等）",
+      "臨床研究與診斷，包括疾病生物標誌物篩選與藥物標靶分析",
+      "客製化技術服務，提供小規模多重檢測解決方案"
+    ],
+    "stats": {
+      "partners": "跨域合作夥伴",
+      "targets": "微陣列標的庫",
+      "turnaround": "檢體回覆時效"
+    }
+  },
+  "capabilities": {
+    "title": "核心技術與整合服務",
+    "subtitle": "從晶片設計、檢體前處理、影像擷取到資料詮釋，我們以模組化與標準化流程，協助夥伴快速導入蛋白體微陣列。",
+    "platform": {
+      "title": "蛋白質微陣列平台",
+      "description": "高密度蛋白質晶片結合高靈敏掃描技術，支援大量標的快速定量分析。",
+      "points": [
+        "客製化人類與病原體蛋白質庫",
+        "自動化製程與嚴謹 QC 控管",
+        "跨疾病領域的應用設計"
+      ]
+    },
+    "dataScience": {
+      "title": "資料科學與品質管理",
+      "description": "整合高通量數據、AI 解析與臨床專家審查，鎖定具價值之生物標誌。",
+      "points": [
+        "雲端資料治理與追蹤",
+        "專家審查會議與臨床諮詢",
+        "ISO 等級流程與文件化"
+      ]
+    },
+    "translation": {
+      "title": "轉譯合作與加值服務",
+      "description": "協助產學與臨床夥伴規劃技術導入、試量產與商業模式。",
+      "points": [
+        "跨領域顧問團隊",
+        "研討會與工作坊資源",
+        "試量產與驗證支持"
+      ]
+    },
+    "biosamples": {
+      "title": "生醫檢體應用",
+      "description": "提供血清、血漿、組織等檢體的前處理與微量分析，確保結果可重現。",
+      "points": [
+        "合規檢體流程與追蹤",
+        "臨床實驗室合作網絡",
+        "結果解讀與報告建議"
+      ]
+    }
+  },
+  "news": {
+    "title": "最新消息與活動",
+    "viewAll": "查看完整動態",
+    "items": [
+      {
+        "title": "掌握未來趨勢：【食安所 x 不分系 跨域課程】創新技術服務的產業化與擴展",
+        "date": "2025-09-03",
+        "summary": "探索如何將研究成果轉化為具市場規模的技術服務，課程涵蓋平台設計與商業化策略。"
+      },
+      {
+        "title": "蛋白質微陣列技術｜高通量蛋白質分析與應用領先解決方案",
+        "date": "2025-08-08",
+        "summary": "介紹高通量蛋白質分析平台於精準醫療的多元應用，包括標誌物探索與診斷開發。"
+      },
+      {
+        "title": "回顧【2025 抗體藥物暨第 20 屆前瞻生醫新知研討會】",
+        "date": "2025-08-06",
+        "summary": "分享聯盟於研討會中的最新成果，展示蛋白體微陣列在抗體藥物開發上的突破。"
+      },
+      {
+        "title": "高通量蛋白質微陣列晶片技術與生醫產業服務聯盟工作坊",
+        "date": "2025-04-09",
+        "summary": "聚焦微陣列晶片製程、品管與臨床研究案例，協助夥伴快速掌握實務。"
+      }
+    ]
+  },
+  "services": {
+    "title": "服務與會員資訊",
+    "membership": {
+      "title": "聯盟會員方案",
+      "description": "專為產業與學研夥伴設計，提供技術諮詢、先行試用與年度專題研究。",
+      "benefits": [
+        "定期技術簡報與成果分享",
+        "專屬顧問協助規劃專案",
+        "會員限定資料庫與研討會席次"
+      ]
+    },
+    "consultation": {
+      "title": "檢體收件諮詢",
+      "description": "提供全流程檢體導入支援，含採集規格、冷鏈運送與資料登錄。",
+      "benefits": [
+        "專人線上諮詢與預約",
+        "標準化檢體登錄文件",
+        "結果解讀與後續建議"
+      ]
+    },
+    "support": {
+      "assessment": "技術評估",
+      "assessmentDetail": "4 週內完成可行性評估報告",
+      "initiation": "專案啟動",
+      "initiationDetail": "設計審查會議同步臨床與產業需求",
+      "delivery": "資料回傳",
+      "deliveryDetail": "提供原始數據、統計分析與專家建議"
+    }
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "subtitle": "歡迎產業、學研與臨床夥伴洽詢合作，我們將盡快回覆您的需求。",
+    "address": "地址",
+    "addressValue": "701 台南市東區大學路 1 號 生醫卓群大樓 9 樓",
+    "phone": "電話",
+    "phoneValue": "+886-6-2353535 ext.1535",
+    "email": "Email",
+    "emailValue": "11402047@gs.ncku.edu.tw",
+    "hours": "諮詢時段",
+    "hoursValue": "週一至週五 09:00-17:00 (GMT+8)",
+    "getInTouch": "聯絡我們"
+  },
+  "footer": {
+    "tagline": "高通量蛋白質微陣列技術與生醫產業服務聯盟",
+    "address": "701 台南市東區大學路 1 號 生醫卓群大樓 9 樓",
+    "copyright": "© 2025 HTPM Alliance. 版權所有。",
+    "quickLinks": "快速連結"
+  },
+  "notFound": {
+    "error": "404 Error",
+    "title": "找不到頁面",
+    "description": "很抱歉，我們無法找到您要造訪的內容。請確認網址或返回首頁探索聯盟資訊。",
+    "backHome": "返回首頁",
+    "contactUs": "聯絡我們"
+  },
+  "about": {
+    "title": "About the Alliance",
+    "description1": "The \"High-Throughput Protein Microarray Technology and Biomedical Industry Service Alliance\" at National Cheng Kung University (NCKU) focuses on high-throughput protein microarray chip technology and biomedical industry services.",
+    "description2": "The alliance is dedicated to providing cutting-edge solutions for high-throughput protein analysis and applications, fostering innovation and collaboration between academia and industry."
+  },
+  "research": {
+    "title": "Research",
+    "description": "The alliance's research focuses on high-throughput protein microarray chip technology. This technology is a powerful tool for biomedical research and industrial applications.",
+    "coreTech": "Core Technologies",
+    "coreTechItems": [
+      "High-Throughput Protein Microarray Chip Technology",
+      "Biomedical Industry Services"
+    ],
+    "applications": "Applications",
+    "applicationsItems": [
+      "High-Throughput Protein Analysis",
+      "Biomedical Research",
+      "Industrial Applications"
+    ]
+  },
+  "members": {
+    "title": "Membership",
+    "description": "The alliance offers membership opportunities for those interested in collaborating and utilizing our high-throughput protein microarray technology.",
+    "info": "Membership Information",
+    "infoItems": [
+      "How to Join",
+      "Membership Fees",
+      "Services for Members",
+      "Sample Submission Consultation"
+    ],
+    "moreInfo": "For more information on how to become a member, please visit the alliance's website or contact us."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "info": "Contact Information",
+    "address": "Address",
+    "addressValue": "9F, Biomedical Building, No. 1 University Road, East District, Tainan City 701",
+    "phone": "Phone",
+    "phoneValue": "+886-6-235-3535 ext. 1535",
+    "email": "Email",
+    "emailValue": "11402047@gs.ncku.edu.tw",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "submit": "Submit"
+  },
+  "teamPage": {
+    "title": "團隊成員",
+    "members": "研究團隊",
+    "member": {
+      "name": "陳建盛 教授",
+      "title": "博士 · 副教授",
+      "affiliation": "國立中央大學",
+      "positionLabel": "現任職位",
+      "position": "副教授",
+      "departmentLabel": "系所單位",
+      "department": "系統生物與生物資訊研究所",
+      "locationLabel": "地點",
+      "location": "台灣桃園市",
+      "researchLabel": "研究領域",
+      "researchDescription": "高通量生物感測實驗室負責人，專注於蛋白質微陣列技術開發與生醫應用研究。",
+      "expertise": [
+        "蛋白質微陣列",
+        "抗體研究",
+        "蛋白質純化",
+        "分子生物學",
+        "生物技術",
+        "生物化學",
+        "化學生物學",
+        "分析化學"
+      ],
+      "publicationsLabel": "學術成就",
+      "publicationsCount": "發表論文",
+      "readsCount": "閱讀次數",
+      "citationsCount": "引用次數",
+      "viewProfile": "查看 ResearchGate 個人檔案"
+    }
+  },
+  "allianceInfo": {
+    "title": "最新消息",
+    "items": [
+      "掌握未來趨勢：【食安所 x 不分系 跨域課程】創新技術服務的產業化與擴展 — 從科研到商業的平台設計實作！",
+      "蛋白質微陣列技術｜高通量蛋白質分析與應用領先解決方案",
+      "回顧【2025抗體藥物暨第20屆前瞻生醫新知研討會】",
+      "高通量蛋白質微陣陣列晶片技術與生醫產業服務聯盟工作坊",
+      "聯盟簡介"
+    ],
+    "summary": "「高通量蛋白質微陣列技術與生醫產業服務聯盟」是位於台灣台南國立成功大學的一項倡議。它隸屬於成功大學醫學院食品安全/衛生與風險管理學系。",
+    "mission": "聯盟的主要任務是推進高通量蛋白質微陣列技術在生醫領域的應用。它作為學術界與產業界合作的平台，旨在加速精準醫療、抗體篩選、疾病診斷和生物標誌物開發等領域的進展。",
+    "objectivesTitle": "聯盟提供的主要目標和服務包括：",
+    "objectives": [
+      "提供高通量蛋白質生產、純化和微陣列技術，支持臨床研究和生物技術應用。",
+      "建立血液抗體生物標誌物庫，促進精準診斷和生物醫學研究。",
+      "提供客製化微陣列晶片服務，提升生技產品價值並提高研發效率。",
+      "促進產學合作，開發新型微陣列技術及其應用。",
+      "提供先進的全基因組蛋白質微陣列，能夠分析來自各種生物體（如大腸桿菌、酵母、人類）的數千種蛋白質。",
+      "進行臨床研究和診斷，包括疾病生物標誌物篩選。",
+      "進行藥物標靶分析，協助製藥公司開發新藥並了解藥物機制。",
+      "利用抗體微陣列晶片進行信號通路分析和生物標誌物研究。",
+      "為小規模多重檢測解決方案提供客製化技術服務。"
+    ]
+  }
+}
+

@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "HTPM Alliance",
+    "fullName": "High-Throughput Proteomics Medical Service Alliance",
+    "tagline": "HIGH-THROUGHPUT PROTEOMICS"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "research": "Research",
+    "members": "Members",
+    "team": "Team",
+    "joinAlliance": "Join the Alliance"
+  },
+  "hero": {
+    "tagline": "HIGH-THROUGHPUT PROTEOMICS",
+    "title": "Excellence in Protein Microarray Platforms, Driving Precision Health Innovation.",
+    "description": "The NCKU High-Throughput Protein Microarray Technology and Biomedical Industry Service Alliance integrates platform R&D, testing services, and clinical applications to provide efficient, highly sensitive proteomic analysis and translation support for industry-academia partners.",
+    "exploreTech": "Explore Core Technologies",
+    "viewNews": "Latest Updates",
+    "labTitle": "High-Throughput Biosensing Laboratory",
+    "labDescription": "Professional team providing full-cycle support from R&D to clinical applications",
+    "highlights": [
+      "Whole-genome protein microarrays analyzing thousands of proteins (E. coli, yeast, human, etc.)",
+      "Clinical research and diagnostics, including disease biomarker screening and drug target analysis",
+      "Customized technical services for small-scale multiplex testing solutions"
+    ],
+    "stats": {
+      "partners": "Cross-Domain Partners",
+      "targets": "Microarray Target Library",
+      "turnaround": "Sample Response Time"
+    }
+  },
+  "capabilities": {
+    "title": "Core Technologies and Integrated Services",
+    "subtitle": "From chip design, sample preprocessing, image capture to data interpretation, we use modular and standardized processes to help partners quickly deploy proteome microarrays.",
+    "platform": {
+      "title": "Protein Microarray Platform",
+      "description": "High-density protein chips combined with highly sensitive scanning technology, supporting rapid quantitative analysis of large targets.",
+      "points": [
+        "Customized human and pathogen protein libraries",
+        "Automated processes and rigorous QC control",
+        "Application design across disease domains"
+      ]
+    },
+    "dataScience": {
+      "title": "Data Science and Quality Management",
+      "description": "Integrating high-throughput data, AI analysis, and clinical expert review to identify valuable biomarkers.",
+      "points": [
+        "Cloud-based data governance and tracking",
+        "Expert review meetings and clinical consultation",
+        "ISO-level processes and documentation"
+      ]
+    },
+    "translation": {
+      "title": "Translation Collaboration and Value-Added Services",
+      "description": "Assisting industry-academia and clinical partners in planning technology integration, pilot production, and business models.",
+      "points": [
+        "Interdisciplinary advisory team",
+        "Seminar and workshop resources",
+        "Pilot production and validation support"
+      ]
+    },
+    "biosamples": {
+      "title": "Biomedical Sample Applications",
+      "description": "Providing pre-processing and micro-analysis of samples such as serum, plasma, and tissue to ensure reproducible results.",
+      "points": [
+        "Compliant sample processing and tracking",
+        "Clinical laboratory collaboration network",
+        "Result interpretation and report recommendations"
+      ]
+    }
+  },
+  "news": {
+    "title": "Latest News and Events",
+    "viewAll": "View All Updates",
+    "items": [
+      {
+        "title": "Grasping Future Trends: [Food Safety Institute x Interdisciplinary Course] Industrialization and Expansion of Innovative Technology Services",
+        "date": "2025-09-03",
+        "summary": "Explore how to transform research results into market-scale technology services, covering platform design and commercialization strategies."
+      },
+      {
+        "title": "Protein Microarray Technology | Leading High-Throughput Protein Analysis and Application Solutions",
+        "date": "2025-08-08",
+        "summary": "Introducing diverse applications of high-throughput protein analysis platforms in precision medicine, including biomarker discovery and diagnostic development."
+      },
+      {
+        "title": "Review of [2025 Antibody Drug and 20th Advanced Biomedical Knowledge Symposium]",
+        "date": "2025-08-06",
+        "summary": "Sharing the alliance's latest achievements at the symposium, showcasing breakthroughs in proteome microarrays for antibody drug development."
+      },
+      {
+        "title": "High-Throughput Protein Microarray Chip Technology and Biomedical Industry Service Alliance Workshop",
+        "date": "2025-04-09",
+        "summary": "Focusing on microarray chip processes, quality control, and clinical research cases to help partners quickly master practical skills."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services and Membership Information",
+    "membership": {
+      "title": "Alliance Membership Program",
+      "description": "Designed for industry and academic research partners, providing technical consultation, early trial access, and annual research projects.",
+      "benefits": [
+        "Regular technical briefings and results sharing",
+        "Dedicated consultants to help plan projects",
+        "Members-only database and seminar seats"
+      ]
+    },
+    "consultation": {
+      "title": "Sample Receipt Consultation",
+      "description": "Providing full-process sample introduction support, including collection specifications, cold chain transportation, and data registration.",
+      "benefits": [
+        "Dedicated online consultation and appointment",
+        "Standardized sample registration documents",
+        "Result interpretation and follow-up recommendations"
+      ]
+    },
+    "support": {
+      "assessment": "Technical Assessment",
+      "assessmentDetail": "Feasibility assessment report completed within 4 weeks",
+      "initiation": "Project Initiation",
+      "initiationDetail": "Design review meetings to align clinical and industry needs",
+      "delivery": "Data Delivery",
+      "deliveryDetail": "Providing raw data, statistical analysis, and expert recommendations"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Industry, academic research, and clinical partners are welcome to inquire about collaboration. We will respond to your needs as soon as possible.",
+    "address": "Address",
+    "addressValue": "9F, Biomedical Excellence Building, No. 1 University Road, East District, Tainan City 701",
+    "phone": "Phone",
+    "phoneValue": "+886-6-2353535 ext.1535",
+    "email": "Email",
+    "emailValue": "11402047@gs.ncku.edu.tw",
+    "hours": "Consultation Hours",
+    "hoursValue": "Monday to Friday 09:00-17:00 (GMT+8)",
+    "getInTouch": "Get In Touch"
+  },
+  "footer": {
+    "tagline": "High-Throughput Protein Microarray Technology and Biomedical Industry Service Alliance",
+    "address": "9F, Biomedical Excellence Building, No. 1 University Road, East District, Tainan City 70101",
+    "copyright": "© 2025 HTPM Alliance. All rights reserved.",
+    "quickLinks": "Quick Links"
+  },
+  "notFound": {
+    "error": "404 Error",
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the content you're looking for. Please check the URL or return to the homepage to explore alliance information.",
+    "backHome": "Back to Home",
+    "contactUs": "Contact Us"
+  },
+  "about": {
+    "title": "About the Alliance",
+    "description1": "The \"High-Throughput Protein Microarray Technology and Biomedical Industry Service Alliance\" at National Cheng Kung University (NCKU) focuses on high-throughput protein microarray chip technology and biomedical industry services.",
+    "description2": "The alliance is dedicated to providing cutting-edge solutions for high-throughput protein analysis and applications, fostering innovation and collaboration between academia and industry."
+  },
+  "research": {
+    "title": "Research",
+    "description": "The alliance's research focuses on high-throughput protein microarray chip technology. This technology is a powerful tool for biomedical research and industrial applications.",
+    "coreTech": "Core Technologies",
+    "coreTechItems": [
+      "High-Throughput Protein Microarray Chip Technology",
+      "Biomedical Industry Services"
+    ],
+    "applications": "Applications",
+    "applicationsItems": [
+      "High-Throughput Protein Analysis",
+      "Biomedical Research",
+      "Industrial Applications"
+    ]
+  },
+  "members": {
+    "title": "Membership",
+    "description": "The alliance offers membership opportunities for those interested in collaborating and utilizing our high-throughput protein microarray technology.",
+    "info": "Membership Information",
+    "infoItems": [
+      "How to Join",
+      "Membership Fees",
+      "Services for Members",
+      "Sample Submission Consultation"
+    ],
+    "moreInfo": "For more information on how to become a member, please visit the alliance's website or contact us."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "info": "Contact Information",
+    "address": "Address",
+    "addressValue": "9F, Biomedical Building, No. 1 University Road, East District, Tainan City 701",
+    "phone": "Phone",
+    "phoneValue": "+886-6-235-3535 ext. 1535",
+    "email": "Email",
+    "emailValue": "11402047@gs.ncku.edu.tw",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "submit": "Submit"
+  },
+  "teamPage": {
+    "title": "Our Team",
+    "members": "Research Team",
+    "member": {
+      "name": "Dr. Chien-Sheng (Jason) Chen",
+      "title": "PhD · Associate Professor",
+      "affiliation": "National Central University",
+      "positionLabel": "Current Position",
+      "position": "Associate Professor",
+      "departmentLabel": "Department",
+      "department": "Graduate Institute of Systems Biology and Bioinformatics",
+      "locationLabel": "Location",
+      "location": "Taoyuan City, Taiwan",
+      "researchLabel": "Research Focus",
+      "researchDescription": "Principal Investigator of High-Throughput Biosensing Laboratory, specializing in protein microarray technology development and biomedical applications.",
+      "expertise": [
+        "Protein Microarrays",
+        "Antibodies",
+        "Protein Purification",
+        "Molecular Biology",
+        "Biotechnology",
+        "Biochemistry",
+        "Chemical Biology",
+        "Analytical Chemistry"
+      ],
+      "publicationsLabel": "Academic Achievements",
+      "publicationsCount": "Publications",
+      "readsCount": "Reads",
+      "citationsCount": "Citations",
+      "viewProfile": "View ResearchGate Profile"
+    }
+  },
+  "allianceInfo": {
+    "title": "About the Alliance",
+    "items": [
+      "Grasping Future Trends: [Food Safety Institute x Interdisciplinary Course] Industrialization and Expansion of Innovative Technology Services — From Scientific Research to Business Platform Design Practice!",
+      "Protein Microarray Technology | Leading High-Throughput Protein Analysis and Application Solutions",
+      "Review of [2025 Antibody Drug and 20th Advanced Biomedical Knowledge Symposium]",
+      "High-Throughput Protein Microarray Chip Technology and Biomedical Industry Service Alliance Workshop",
+      "Alliance Introduction"
+    ],
+    "summary": "The \"High-Throughput Protein Microarray Technology and Biomedical Industry Service Alliance\" is an initiative based at National Cheng Kung University (NCKU) in Tainan, Taiwan. It operates within the Department of Food Safety/Hygiene and Risk Management, College of Medicine, at NCKU.",
+    "mission": "The alliance's primary mission is to advance the application of high-throughput protein microarray technology within the biomedical sector. It serves as a platform for collaboration between academia and industry, aiming to accelerate progress in areas such as precision medicine, antibody screening, disease diagnosis, and the development of biomarkers.",
+    "objectivesTitle": "Key objectives and services provided by the alliance include:",
+    "objectives": [
+      "Offering high-throughput protein production, purification, and microarray technologies to support clinical research and biotechnology applications.",
+      "Establishing a blood antibody biomarker library to foster precision diagnostics and biomedical research.",
+      "Providing customized microarray chip services to enhance the value of biotech products and improve research and development efficiency.",
+      "Promoting industry-academic partnerships to develop novel microarray technologies and their applications.",
+      "Providing advanced whole-genome protein microarrays capable of analyzing thousands of proteins from various organisms (e.g., E. coli, yeast, human).",
+      "Conducting clinical research and diagnostics, including screening for disease biomarkers.",
+      "Performing drug target analysis to aid pharmaceutical companies in new drug development and understanding drug mechanisms.",
+      "Utilizing antibody microarray chips for signaling pathway analysis and biomarker research.",
+      "Offering customized technical services for small-scale multiplex testing solutions."
+    ]
+  }
+}
+

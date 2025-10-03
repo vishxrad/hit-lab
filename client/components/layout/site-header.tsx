@@ -1,18 +1,21 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Activity, Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { Button } from "@/components/ui/button";
+import { LanguageToggle } from "@/components/custom/LanguageToggle";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Overview", href: "#overview" },
-  { label: "Technologies", href: "#capabilities" },
-  { label: "News", href: "#news" },
-  { label: "Services", href: "#services" },
-  { label: "Contact", href: "#contact" },
+  { label: "nav.home", href: "/" },
+  { label: "nav.research", href: "/research" },
+  { label: "nav.members", href: "/members" },
+  { label: "nav.team", href: "/team" },
 ] as const;
 
 export function SiteHeader() {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen((value) => !value);
@@ -21,8 +24,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="relative mx-auto flex h-20 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <a
-          href="#overview"
+        <Link
+          to="/"
           className="flex items-center gap-3 text-left text-foreground transition-colors hover:text-primary"
           onClick={closeMenu}
         >
@@ -31,27 +34,28 @@ export function SiteHeader() {
           </span>
           <span className="flex flex-col">
             <span className="text-xs font-semibold uppercase tracking-[0.4em] text-primary/80">
-              HTPM Alliance
+              {t("site.name")}
             </span>
             <span className="text-sm font-semibold sm:text-base">
-              高通量生醫服務聯盟
+              {t("site.fullName")}
             </span>
           </span>
-        </a>
+        </Link>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               className="text-foreground/80 transition-colors hover:text-foreground"
             >
-              {item.label}
-            </a>
+              {t(item.label)}
+            </Link>
           ))}
         </nav>
         <div className="flex items-center gap-3">
+          <LanguageToggle />
           <Button size="sm" className="hidden md:inline-flex" asChild>
-            <a href="#contact">Join the Alliance</a>
+            <a href="/#contact">{t("nav.joinAlliance")}</a>
           </Button>
           <button
             type="button"
@@ -78,18 +82,18 @@ export function SiteHeader() {
         >
           <nav className="flex flex-col gap-3 text-base font-medium text-foreground/80">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.href}
-                href={item.href}
+                to={item.href}
                 onClick={closeMenu}
                 className="rounded-lg px-2 py-2 transition-colors hover:bg-primary/10 hover:text-foreground"
               >
-                {item.label}
-              </a>
+                {t(item.label)}
+              </Link>
             ))}
           </nav>
           <Button className="mt-5 w-full" size="lg" onClick={closeMenu} asChild>
-            <a href="#contact">Join the Alliance</a>
+            <a href="/#contact">{t("nav.joinAlliance")}</a>
           </Button>
         </div>
       </div>
