@@ -2,6 +2,7 @@ import type { PropsWithChildren } from "react";
 
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
+import { Toaster } from "@/components/ui/toaster";
 
 export function AppLayout({ children }: PropsWithChildren) {
   return (
@@ -17,6 +18,7 @@ export function AppLayout({ children }: PropsWithChildren) {
         {children}
       </main>
       <SiteFooter />
+      <Toaster />
     </div>
   );
 }
