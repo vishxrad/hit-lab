@@ -4,7 +4,8 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Research from "@/pages/Research";
 import Members from "@/pages/Members";
-import Team from "@/pages/Contact";
+import Team from "@/pages/Team";
+import Contact from "@/pages/Contact";
 import NotFound from "@/pages/NotFound";
 import "@/i18n";
 
@@ -18,6 +19,7 @@ export default function Index() {
           <Route path="/research" element={<Research />} />
           <Route path="/members" element={<Members />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AppLayout>

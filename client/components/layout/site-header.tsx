@@ -55,7 +55,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-3">
           <LanguageToggle />
           <Button size="sm" className="hidden md:inline-flex" asChild>
-            <Link to="/team">{t("nav.joinAlliance")}</Link>
+            <Link to="/contact">{t("nav.joinAlliance")}</Link>
           </Button>
           <button
             type="button"
@@ -93,7 +93,7 @@ export function SiteHeader() {
             ))}
           </nav>
           <Button className="mt-5 w-full" size="lg" onClick={closeMenu} asChild>
-            <Link to="/team">{t("nav.joinAlliance")}</Link>
+            <Link to="/contact">{t("nav.joinAlliance")}</Link>
           </Button>
         </div>
       </div>
