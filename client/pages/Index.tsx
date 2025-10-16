@@ -6,6 +6,7 @@ import Research from "@/pages/Research";
 import Members from "@/pages/Members";
 import Team from "@/pages/Team";
 import Contact from "@/pages/Contact";
+import ProteinArray from "@/pages/ProteinArray";
 import NotFound from "@/pages/NotFound";
 import "@/i18n";
 
@@ -20,6 +21,7 @@ export default function Index() {
           <Route path="/members" element={<Members />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/protein-array" element={<ProteinArray />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AppLayout>
